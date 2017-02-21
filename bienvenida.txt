@@ -10,6 +10,6 @@ BIOGRAF&#205;A&#58; SABY RODRIGUEZ
         BIENVENIDO A MI P&#193;GINA
     </H1>
     </div>
-<p> <a href="./pagina2.html" target="_blank" > Siguiente p&#225gina </a> </p>
+<p> <a href="./biografia.html"> Siguiente p&#225gina </a> </p>
 </body>
-</html>   
+</html>   
