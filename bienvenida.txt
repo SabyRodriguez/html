@@ -7,9 +7,16 @@ BIOGRAF&#205;A&#58; SABY RODRIGUEZ
 <body>
     <div id="bienvenida">
         <H1>
-        BIENVENIDO A MI P&#193;GINA
+        BIENVENIDO A MI SITIO WEB
     </H1>
     </div>
-<p> <a href="./biografia.html"> Siguiente p&#225gina </a> </p>
+<p> introduccion </p>
+
+<p> <a href="./familia.html"> Familia </a> </p>
+<p> <a href="./infancia.html"> Infancia </a> </p>
+<p> <a href="./adolescencia.html"> Adolescencia </a> </p>
+<p> <a href="./estudios.html"> Estudios </a> </p>
+<p> <a href="./gustos.html"> Gustos </a> </p>
 </body>
 </html>   
+   
