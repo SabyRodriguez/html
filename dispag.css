@@ -1,0 +1,17 @@
+.img{
+    border-style:ridge;
+    border-width:20px;
+    border-color:deepskyblue;
+    
+}
+.body{
+  background-color:antiquewhite;
+}
+
+.tit{
+    
+    border-style:ridge;
+    border-width:10px;
+    border-color:deepskyblue;
+    background-color:deepskyblue;
+}
