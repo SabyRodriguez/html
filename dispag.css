@@ -3,7 +3,7 @@
     border-color: rebeccapurple;
 }
 .body{
-background-image: url("./paper.jpg")
+background-image: url("./img1/paper.jpg")
 }
 
 .conNav{
@@ -27,7 +27,12 @@ background-image: url("./paper.jpg")
     font-size: 1.2em;
     margin-right:1.5%;
     margin-left: 1.5%;
+    font-family:sans-serif;
 
+}
+
+.imgcircular{
+    border-radius: 50px;
 }
 
 *{
