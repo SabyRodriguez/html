@@ -78,3 +78,142 @@
 #imagenes4 img:hover{
     transform: scale(1.8);
 }
+
+#imagenes5{
+    width:75%;
+    height: 250px;
+    margin-left: 380px;
+}
+
+#imagenes5 img{
+    width: 25%;
+    height: 270px;
+    
+}
+
+#imagenes5 img:hover{
+    transform: scale(1.8);
+}
+#imagenes6{
+    width:75%;
+    height: 200px;
+    margin-left: 210px;
+}
+
+#imagenes6 img{
+    width: 30%;
+    height: 200px;  
+}
+
+#imagenes6 img:hover{
+    transform: scale(2.0);
+}
+#imagenes7{
+    width:80%;
+    height: 250px;
+    margin-left: 250px;
+}
+
+#imagenes7 img{
+    width: 25%;
+    height: 250px;
+    
+}
+
+#imagenes7 img:hover{
+    transform: scale(2.0);
+}
+
+
+#imagenes8{
+    width:85%;
+    height: 280px;
+    margin-left: 150px;
+}
+
+#imagenes8 img{
+    width: 22%;
+    height: 275px;
+    
+}
+
+#imagenes8 img:hover{
+    transform: scale(1.8);
+}
+#imagenes9{
+    width:75%;
+    height: 615px;
+    margin-left: 210px;
+}
+
+#imagenes9 img{
+    width: 30%;
+    height: 200px;
+    
+}
+
+#imagenes9 img:hover{
+    transform: scale(2.0);
+}
+
+#imagenes10{
+    width:75%;
+    height: 1020px;
+    margin-left: 210px;
+}
+
+#imagenes10 img{
+    width: 30%;
+    height: 200px;
+    
+}
+
+#imagenes10 img:hover{
+    transform: scale(2.0);
+}
+
+#imagenes11{
+    width:75%;
+    height: 300px;
+    margin-left: 450px;
+}
+
+#imagenes11 img{
+    width: 22%;
+    height: 300px;
+    
+}
+
+#imagenes11 img:hover{
+    transform: scale(2.0);
+}
+#imagenes12{
+    width:75%;
+    height: 200px;
+    margin-left: 180px;
+}
+
+#imagenes12 img{
+    width: 30%;
+    height: 200px;
+    
+}
+
+#imagenes12 img:hover{
+    transform: scale(2.0);
+}
+#imagenes13{
+    width:75%;
+    height: 300px;
+    margin-left: 200px;
+}
+
+#imagenes13 img{
+    width: 22%;
+    height: 300px;
+    
+}
+
+#imagenes13 img:hover{
+    transform: scale(2.0);
+}
