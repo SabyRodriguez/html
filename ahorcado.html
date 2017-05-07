@@ -11,11 +11,10 @@
 <SCRIPT LANGUAGE=JavaScript>
 var hombre = new Array("___\n", "   |\n", "   O\n", "  /", "|", "\\\n", "  /", " \\\n", "___")
 var palabra
-var libreriaPalabras = new Array("m u l t i m e d i a", "i n t e r n a u t a", "s e r v i d o r", "p r o t o c o l o", "c o r t a f u e g o s",
-"n a v e g a d o r", "n o d o", "m a r c o", "p a g i n a", "t e l a r a ñ a",
-"d e s c a r g a r", "v i r t u a l", "m e m o r i a", "d i s c o", "l o c a l",
-"c o n e c t a r", "d e s c o n e c t a r", "e n c a m i n a d o r", "i n t e r n e t", "d o m i n i o",
-"d i n a m i c o", "h i p e r v i n c u l o", "e n l a c e", "m a r c a d o r", "o r d e n a d o r", "l a p i z", "o f i m a t i c a", "i n f o r m e" )
+var libreriaPalabras = new Array("j u g a r", "m u ñ e c a s", "m a q u i l l a r", "b a i l a r", "p e i n a r",
+"s a l i r", "d i b u j a r", "e s c o n d i d a s", "f u t b e i s", "c o m i d a",
+"t i r o l e z a", "p i ñ a t a s", "p o r r i s t a s", "a h o r c a d o", "p a n",
+"s t o p", "c h i l e s")
 var partes = 0
 var colNueva = 0
 var jugando
@@ -23,7 +22,7 @@ var jugando
 
 function ObtienePalabra() {
    //obtiene la palabra para jugar de forma pseudoaleatoria
-   var indice = Math.round ( Math.random() * 27 )
+   var indice = Math.round ( Math.random() * 17 )
    var cadena = new String( libreriaPalabras[indice] )
    palabra = cadena.split(" ")
 }
@@ -140,9 +139,14 @@ function FinJuego(resultado) {
 }
 </SCRIPT>
 </HEAD>
-<BODY class="body">
-<center><H1>Juego del ahorcado</H1></center><br>
     
+<BODY class="body">
+    <div class="conNav"><center class="img"><img src= "./img1/logotext2.png" ></center>
+    </div>
+<center><H1 class="texttit"> &#126; Juego del ahorcado &#126;</H1></center><br>
+    <h3 class="text">Este juego se trata de adivinar una palabra que tu compa&#241;ero de juego pone, en este caso la computadora pondra la palabra y ser&#225; de manera aleatoria, la palabra se tratar&#225; de adivinar presionando los botones donde estan las letras del abecedario, a un lado de la palabra va apareciendo un monito si la letra que se menciona es incorrecta, se pierde cuando aparece el monito completo y se gana cuando se resuelve la palabra.</h3><br>
+    <h3 class="text"> &#126; Las palabras para adivinar estar&#225;n relacionadas con lo que se menciona en la secci&#243;n de gustos.</h3><br>
+    <hr><br>
 <FORM NAME=visor>
    <CENTER>
    <TABLE width=547>
@@ -168,7 +172,7 @@ function FinJuego(resultado) {
       <td align=center><input type=button name=botJ value=" J " onClick="Juega(this.form, 'j')">
       <td align=center><input type=button name=botK value=" K " onClick="Juega(this.form, 'k')">
       <td align=center><input type=button name=botL value=" L " onClick="Juega(this.form, 'l')">
-      <td align=right valign=middle>Ganadas: <input type=text name=ganadas size=4 value=0>
+      <td align=right valign=middle class="text">Ganadas: <input type=text name=ganadas size=4 value=0>
     <tr>
       <td align=center><input type=button name=botM value=" M " onClick="Juega(this.form, 'm')">
       <td align=center><input type=button name=botN value=" N " onClick="Juega(this.form, 'n')">
@@ -176,7 +180,7 @@ function FinJuego(resultado) {
       <td align=center><input type=button name=botO value=" O " onClick="Juega(this.form, 'o')">
       <td align=center><input type=button name=botP value=" P " onClick="Juega(this.form, 'p')">
       <td align=center><input type=button name=botQ value=" Q " onClick="Juega(this.form, 'q')">
-      <td align=right valign=middle>Perdidas: <input type=text name=perdidas size=4 value=0>
+      <td align=right valign=middle class="text"> Perdidas: <input type=text name=perdidas size=4 value=0>
     <tr>
       <td align=center><input type=button name=botR value=" R " onClick="Juega(this.form, 'r')">
       <td align=center><input type=button name=botS value=" S " onClick="Juega(this.form, 's')">
@@ -194,12 +198,8 @@ function FinJuego(resultado) {
   </TABLE>
   </CENTER>
 </FORM>
-
-<hr>
-<center>
-<h3>
-[<a href="./gustos.html">Volver</a>]
-</h3>
-</center>
+<br><hr><br>          
+<center><h3><a class="text "href="./gustos.html">Volver a la p&#225;gina anterior</a></h3></center>
+  <p class="text"> &#169; SRG Productions &#153; </p>        
 </BODY>
 </HTML>
