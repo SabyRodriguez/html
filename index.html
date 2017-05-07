@@ -3,6 +3,11 @@
 <title>
 P&#193;GINA PRINCIPAL
 </title>
+    <meta charset="utf-8">   
+    <link rel="stylesheet" type="text/css" href="./carusel.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
      <link rel="stylesheet"
          type="text/css"
          href="./dispag.css">
@@ -10,6 +15,7 @@ P&#193;GINA PRINCIPAL
          type="text/css"
          href="./divimagen.css">
 </head>
+    <main>
 <body class="body">
     <div id="bienvenida">
        <div class="conNav"><center class="img"><img src= "./img1/logotext2.png" ></center>
@@ -57,14 +63,24 @@ P&#193;GINA PRINCIPAL
     
     <br>
 <center class="texttit"> <p> &#126; Bienvenidos a mi sitio web  &#126; </p></center>
-   
-    
 <br>
 <H4 class="text"> <p>  Hola bienvenidos a mi sitio web, mi nombre es Saby Rosario Guadalupe Rodriguez Gamez, nac&#237; el 19 de Agosto de 1996 en Guasave Sinaloa, vivo en la comunidad de Fracc. Valle Campestre que pertenece a la sindicatura de Adolfo Ruiz Cortines, mis padres son Sergio Rodriguez Losoya y Sabina Gamez Barraza actualmente tengo 20 a&#241;os de edad y estudio la carrera de ingenier&#237;a inform&#225;tica en el Instituto Tecnol&#243;gico de los Mochis, este sitio web esta creado para dar a conocer mi historia de vida, la cual he decidido dividir en secciones para que esten mejor explicadas las etapas por las que he pasado. Tambi&#233;n se explicaran detalles de mi filosof&#237;a de vida y las metas que tengo en esta misma. Espero y mi historia de vida les sea de su agrado. </p></H4>
 
-<div id="imagenes3">   
-<center><p> <img class="imgcircular" alt="En esta foto me encuentro yo, solamente es el rostro" src= "./img1/saby.jpg" width="300" height="250"></p></center>
-</div> 
+     <div id="c-slider">
+           <div id="slider">
+               <section><img src="./img1/adolescencia/151.jpg" alt=""></section>
+               <section><img src="./img1/estudios/entrega.jpg" alt=""></section>
+               <section><img src="./img1/familia/fam6.jpeg" alt=""></section>
+               <section><img src="./img1/gustos/tiroleza.jpg" alt=""></section> 
+           
+           </div>
+           <div id="btn-prev">&#60;</div>
+           <div id="btn-next">&#62;</div>
+       </div> 
+
 <p class="text"> &#169; SRG Productions &#153; </p>
 </body>
+        </main>
+    <script src="./slider.js"></script>
 </html> 
+
