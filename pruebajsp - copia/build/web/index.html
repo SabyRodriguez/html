@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formulario</title>
+<link rel="stylesheet" 
+          type="text/css" 
+          href="estilo.css">
+</head>
+<body class="body">
+    
+<form action="proceso.jsp" method="post">
+    <br/>
+    <h1 class="text">Nombre: <input type="text" name="nombre"></h1>
+    <br/>
+    <h1 class="text">Apellido: <input type="text" name="apellido"></h1>
+    <br/>
+    <h1 class="text">Edad: <input type="text" name="edad"></h1>
+    <br/>
+    <h1 class="text">Pasatiempo preferido: <select class="text" name="lenguaje">
+      <option value="leer">Leer
+      <option value="musica" selected>Escuchar musica
+      <option value="futbol">Jugar futbol
+      <option value="tv">Ver tv
+      <option value="correr">Correr
+      <option value="bailar">Bailar
+      <option value="estudiar">Estudiar
+    </select></h1>
+    <br/>
+    <h1 class="text">Me gusta comer:<br/>
+    <input type="Radio" name="preferencia" value= "pizza" checked>Pizza
+    <br/>
+    <input type="Radio" name= "preferencia" value="pastel">Pastel
+    <br/>
+    <input type="Radio" name= "preferencia" value="caldos">Caldos
+    <br/>
+    <input type="Radio" name= "preferencia" value="guisos">Guisos
+    <br/></h1>
+    
+    <br/>
+    <p><input class="text" type="submit" value="Enviar"></p>
+</form>
+ 
+</body>
+</html>
